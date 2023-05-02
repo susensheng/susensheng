@@ -188,7 +188,7 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "角色扮演",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
@@ -219,9 +219,9 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具啊",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
-    More: "搜索更多",
+    Title: "挑选一个角色",
+    SubTitle: "选择一个角色,让你AI帮你制定详细目标计划",
+    More: "搜索更多角色",
   },
 };
 
