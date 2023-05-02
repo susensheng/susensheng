@@ -32,7 +32,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "重置默认",
-      SaveAs: "另存为角色",
+      SaveAs: "另存为角色模板",
     },
   },
   Export: {
@@ -188,11 +188,11 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "角色扮演",
+    Name: "角色模板",
     Page: {
-      Title: "预设角色扮演",
+      Title: "预设角色模板",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色扮演",
+      Search: "搜索角色模板",
       Create: "新建",
     },
     Item: {
@@ -219,9 +219,9 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个角色",
-    SubTitle: "在下面选择一个角色扮演,让AI帮你制定更详细的内容",
-    More: "搜索更多角色",
+    Title: "挑选一个角色模板",
+    SubTitle: "在下面选择一个角色模板,让AI帮你制定更详细的内容",
+    More: "搜索更多角色模板",
   },
 };
 
