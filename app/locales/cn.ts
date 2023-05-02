@@ -32,7 +32,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "重置默认",
-      SaveAs: "另存为面具",
+      SaveAs: "另存为角色",
     },
   },
   Export: {
@@ -102,8 +102,8 @@ const cn = {
       SubTitle: "在预览气泡中预览 Markdown 内容",
     },
     Mask: {
-      Title: "面具启动页",
-      SubTitle: "新建聊天时，展示面具启动页",
+      Title: "角色启动页",
+      SubTitle: "新建聊天时，展示角色启动页",
     },
     Prompt: {
       Disable: {
@@ -130,8 +130,8 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "使用自己的 API Key 可绕过密码访问限制",
+      Placeholder: "在这里输入API",
     },
 
     Usage: {
@@ -190,9 +190,9 @@ const cn = {
   Mask: {
     Name: "角色扮演",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设角色扮演",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索角色扮演",
       Create: "新建",
     },
     Item: {
@@ -220,7 +220,7 @@ const cn = {
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
     Title: "挑选一个角色",
-    SubTitle: "选择一个角色,让你AI帮你制定详细目标计划",
+    SubTitle: "在下面选择一个角色扮演,让AI帮你制定更详细的内容",
     More: "搜索更多角色",
   },
 };
